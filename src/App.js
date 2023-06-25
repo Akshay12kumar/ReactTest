@@ -27,7 +27,7 @@ function App() {
     }));
   };
 
-  /* Conditional Operation for component selection */
+  /* Conditional Operation for component selection*/
   switch (step) {
     case 1:
       return (
