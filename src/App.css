@@ -2,26 +2,12 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-self: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0px 0px 620px;
 }
 
 .App-link {
@@ -35,4 +21,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card-style {
+  margin-top: 100px;
+}
+
+.card-body {
+  height: 280px;
+}
+
+.form-text{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    color: black;
+    margin: 20px 0px;
+}
+
+.code-input{
+  font-size: 20px;
+  display: flex;
+  color: black;
+  margin: 0px;
+}
+
+.div-style{
+    display: flex;
+    justify-content: end;
+    margin: 110px 0px 0px;
+}
+
+.button-style{ display: flex; width: 100px}
+
+.card-body .error-text{
+  color: red; 
+  display: block ;
+  font-size: 16px;
+  margin: 15px 0px; 
+  float: left;
+}
+
+.select-style{width: 75% }
+
+.card-body .result-text {
+  font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    color: black;
+    margin: 28px 0px;
 }
